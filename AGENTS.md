@@ -32,3 +32,10 @@ This is the **project memory** - what Arc Studio remembers about building this a
 bun install
 bun run dev
 ```
+
+## Deployments
+- ArcUsdcVault (Arc Testnet, chain 5042002): 0x17b62bedc6c45d03fb61dfb5dc301f6731bf4b9a
+  - Underlying USDC: 0x3600000000000000000000000000000000000000
+  - Admin / pauser / cap manager: 0x8aaa6e659f4727d6da32d6bb424627d9731ce9bb
+  - Admin handover delay: 1 day. Initial deposit cap: 10 USDC (10000000 units).
+  - Spec: contracts/ArcUsdcVault-design.md. Tests: contracts/test/ (run `forge test`).
